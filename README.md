@@ -28,6 +28,10 @@ Read the Excel file, convert it to a Markdown notation table, and output it to a
 - pip install pandas
 - pip install openpyxl
 
+## プログラムの説明サイト Program description site
+
+[エクセルの表からMarkdownの表に変換【Python】 - プログラムでおかえしできるかな](https://juu7g.hatenablog.com/entry/Python/excel2md)  
+
 ## 作者 Authors
 juu7g
 
