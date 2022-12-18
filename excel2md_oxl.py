@@ -7,7 +7,7 @@ import sys, datetime, csv
 
 def Write_csv( file_name:str, headers:list, rows:list):
     """
-    CSVファイルの出力   cp932, crlf
+    CSVファイルの出力   utf_8_sig, crlf
 
     Args:
         str:        ファイル名
@@ -15,7 +15,7 @@ def Write_csv( file_name:str, headers:list, rows:list):
         list:       出力データ用リスト
     """
     try:
-        with open(file_name, encoding="cp932", mode="w", newline="\n") as f:
+        with open(file_name, encoding="utf_8_sig", mode="w", newline="\n") as f:
             _writer = csv.writer(f, delimiter="|")
             for header in headers:
                 _writer.writerow(header)
